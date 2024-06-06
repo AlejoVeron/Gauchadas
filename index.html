@@ -1,0 +1,102 @@
+<!--Este es un comentario de HTML-->
+<!--Los comentarios no se renderizan en el navegador, son únicamente para quienes inspeccionan el código-->
+
+
+<!--Declaración de tipo de documento-->
+    <!DOCTYPE html>
+
+<!--Declaración de idioma de la página-->
+    <html lang="es">
+
+<!--Etiqueta <head> con información para el navegador, los usuarios no van a ver esta información publicada.
+    Es únicamente para funcionamiento del navegador-->
+<head>
+
+    <!--Esta es la "metadata", que permite insertar información para los buscadores y el navegador-->
+
+        <!--Set de caracteres utilizados. UTF-8 incluye ñ y acentos, es el más usado-->
+            <meta charset="UTF-8">
+        <!--Declaración de vista de compatibilidad-->
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <!--Seteo de la pantalla para que la escala sea 1/1-->
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--Acá va el título de la página, que aparece en la pestaña-->
+            <title>Plantilla para modificar de HTML y CSS</title>
+        <!--Declaración de estilos en CSS-->
+        <link rel="stylesheet" href="estilos.css">
+        <!--Declaración de favicon (Icono de Favoritos)-->
+        <link  rel="icon"   href="media/logo.svg" type="image/svg" />
+        <!--Declaración de información de la página-->
+        <meta name="description" content="Esta es la descripción que aparecerá al buscar o encontrar la página en un navegador o buscador">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Petrona:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+
+<!--Etiqueta <body> que incluye todo el contenido de la página.
+    La mayoría de lo escrito acá adentro se refleja en la pantalla que verá el usuario.-->
+<body>
+    <!--Barra de navegación con links-->
+    <!--Este es un elemento de navegación (nav) que debe ser único por página HTML. Tiene una clase "row"-->
+    <nav class="row">
+        <a href="#">Home</a>
+        <a href="#">Trabajos</a>
+        <!--Esta es una división con id único "logo" que contiene la imagen del logo-->
+        <div id="logo"><img style="width: 40px;height: auto;" src="media/logo.svg" alt="Logo A"></div>
+        <a href="#">Behance</a>
+        <a href="#">Contacto</a>
+    </nav>
+
+    <!--Banner con información dentro-->
+    <!-- Esta es una división o contenedor de página (div) con las clases "banner" y "colb"-->
+    <div class="banner colb">
+        <section>
+            <h1>Bienvenidos al Himalaya</h1>
+            <div class="cards">
+                <div class="card">
+                    <div class="content">
+                        <h2>Esto es una card #1</h2>
+                        <span>Esta es la descripcion de una card #1</span>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui ab mollitia voluptas voluptates incidunt? Quis nihil fugiat, temporibus corporis animi error cum, porro dolore expedita, quisquam quo? Quo, suscipit impedit!</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="content">
+                        <h2>Esto es una card #2</h2>
+                        <span>Esta es la descripcion de una card #2</span>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui ab mollitia voluptas voluptates incidunt? Quis nihil fugiat, temporibus corporis animi error cum, porro dolore expedita, quisquam quo? Quo, suscipit impedit!</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="content">
+                        <h2>Esto es una card #3</h2>
+                        <span>Esta es la descripcion de una card #3</span>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui ab mollitia voluptas voluptates incidunt? Quis nihil fugiat, temporibus corporis animi error cum, porro dolore expedita, quisquam quo? Quo, suscipit impedit!</p>
+                    </div>
+                </div>
+            </div>
+            <!--div class="card">
+                <div class="content">
+                    <h2>Esto es una card</h2>
+                    <p>Esta es la descripcion de una card</p>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui ab mollitia voluptas voluptates incidunt? Quis nihil fugiat, temporibus corporis animi error cum, porro dolore expedita, quisquam quo? Quo, suscipit impedit!</p>
+                </div>
+            </div-->
+        </section>
+        <!--Esta es una división o contenedor de página con clase "banner_info"-->
+        <div class="banner_info">
+            <div class="colores">
+                <!--Esta división tiene un id único "color#" que debe ser único por documento html-->
+                <div id="color1" class="color"><img class="icon" src="media/emplatado2.jpeg" alt="Esta es la descripción del icono por si no carga correctamente"></div>
+                <div id="color2" class="color"><img class="icon" src="media/emplatado3.jpeg" alt="Esta es la descripción del icono por si no carga correctamente"></div>
+                <div id="color3" class="color"><img class="icon" src="media/emplatado4.jpeg" alt="Esta es la descripción del icono por si no carga correctamente"></div>
+                
+            </div>
+           
+        </div>
+    </div>
+    
+    <!--Cierra body (contenido)-->
+</body>
+<!--Fin del documento HTML-->
+</html>
