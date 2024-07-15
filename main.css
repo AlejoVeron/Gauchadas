@@ -58,7 +58,7 @@
 --------------------------------------------------------------*/
 body {
   color: var(--default-color);
-  background-color: var(--background-color);
+  background-color: #FCF8F3;
   font-family: var(--default-font);
 }
 
@@ -816,6 +816,131 @@ a:hover {
   display: flex;
   flex-flow: column;
   justify-content: c;
+}
+
+/*--------------------------------------------------------------
+# Cursos Section
+--------------------------------------------------------------*/
+.space{
+  padding: 40px;
+}
+.cursos{
+  background-color: #FCF8F3;
+  background-image: url(./images/back-cursos.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 1200px;
+ 
+}
+.cursos .row {
+  padding: 10% 0;
+}
+.cursos-box{
+  padding-right: 120px;
+}
+.cursos .content-subtitle {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+  font-size: 0.8em;
+  margin-bottom: 10px;
+  display: block;
+  color: #A70E0E;
+}
+
+.cursos h3{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+  font-size: 1.2em;
+  margin-bottom: 10px;
+  display: block;
+  color: #A70E0E;
+}
+.cursos .content-title {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+  color: #090722;
+  font-size: 3em;
+  margin-bottom: 30px;
+}
+
+.cursos p {
+  font-family: 'Raleway', sans-serif;
+  line-height: 1.7;
+  color: #090722;
+  font-size: 1em;
+
+}
+
+.cursos .btn-get-started {
+  color: #A70E0E;
+  border-radius: 5px;
+  padding: 8px 30px;
+  border: 2px solid #A70E0E;
+  transition: 0.3s all ease-in-out;
+  font-size: 14px;
+}
+
+.cursos .btn-get-started:hover {
+  background-color: #A70E0E;
+  color: #FCF8F3;
+}
+.card-f{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+.card-w{
+  max-width: 320px;
+  width: 100%;
+  height: 400px;
+}
+.a-card-w{
+  padding-bottom: 50px;
+}
+.a-prod img{
+  width: 330px;
+  height: auto;
+  border-bottom: 4px solid #A70E0E;
+}
+.a-card-prod{
+  border: 4px solid #A70E0E;
+  max-width: 460px;
+}
+.a-card-tit{
+  font-family: 'Aleo', serif;
+  font-weight: 700;
+  text-align: center;
+  color: #A70E0E;
+  font-size: 3em;
+  padding: 5% 0;
+  border-bottom: 4px solid #A70E0E;
+}
+.a-card-tit-des{
+  font-family: 'Aleo', serif;
+  font-weight: 700;
+  text-align: left;
+  color: #090722;
+  font-size: 1.2em;
+  padding: 5%;
+  border-right: 4px solid #A70E0E;
+  
+}
+.a-card-desc{
+  font-family: 'Aleo', serif;
+  text-align: left;
+  color: #090722;
+  font-size: 0.8em;
+  max-width: 460px;
+  padding: 5%;
+  line-height: 2em;
+
+}
+.a-card-mod{
+  font-family: 'Raleway', sans-serif;
+  font-size: 0.5em;
+}
+.a-card-border{
+  border-top: 4px solid #A70E0E;
 }
 /*--------------------------------------------------------------
 # Stats Section
@@ -2042,95 +2167,74 @@ a:hover {
 /*--------------------------------------------------------------
 # Contact Section
 --------------------------------------------------------------*/
-.contact .info {
-  background-color: var(--surface-color);
-  padding: 40px;
-  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
-  overflow: hidden;
+.contacto{
+  background-image: url(images/back-coontact.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 200px;
+  height: 90vh;
 }
-
-.contact .info h3 {
-  font-weight: 600;
-  font-size: 24px;
+.contacto h3{
+  font-family: 'Aleo', serif;
+  font-weight: 700;
+  font-size: 3em;
 }
-
-.contact .info p {
-  color: color-mix(in srgb, var(--default-color), transparent 40%);
-  margin-bottom: 30px;
-  font-size: 15px;
+.contacto p{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+  font-size: 1em;
 }
-
-.contact .info-item+.info-item {
-  padding-top: 20px;
-  margin-top: 20px;
-  border-top: 1px solid color-mix(in srgb, var(--default-color), transparent 90%);
-}
-
-.contact .info-item i {
-  font-size: 24px;
-  color: var(--accent-color);
-  transition: all 0.3s ease-in-out;
-  margin-right: 20px;
-}
-
-.contact .info-item h4 {
-  padding: 0;
-  font-size: 18px;
-  line-height: 24px;
-  font-weight: 600;
-  margin-bottom: 5px;
-}
-
-.contact .info-item p {
-  padding: 0;
-  margin-bottom: 0;
+.contacto .btn-get-started {
+  
+  color: #A70E0E;
+  border-radius: 5px;
+  padding: 8px 30px;
+  border: 2px solid #A70E0E;
+  transition: 0.3s all ease-in-out;
   font-size: 14px;
-  color: color-mix(in srgb, var(--default-color), transparent 40%);
 }
 
-.contact .php-email-form {
+.contacto .php-email-form {
   width: 100%;
 }
 
-.contact .php-email-form .form-group {
+.contacto .php-email-form .form-group {
   padding-bottom: 8px;
 }
 
-.contact .php-email-form input[type=text],
-.contact .php-email-form input[type=email],
-.contact .php-email-form textarea {
-  color: var(--default-color);
-  background-color: var(--surface-color);
-  border-radius: 0px;
+.contacto .php-email-form input[type=text],
+.contacto .php-email-form input[type=email],
+.contacto .php-email-form textarea {
+  color: #A70E0E;
   box-shadow: none;
   font-size: 14px;
-  border-color: color-mix(in srgb, var(--default-color), transparent 80%);
+  border-color: #A70E0E;
 }
 
-.contact .php-email-form input[type=text]:focus,
-.contact .php-email-form input[type=email]:focus,
-.contact .php-email-form textarea:focus {
+.contacto .php-email-form input[type=text]:focus,
+.contacto .php-email-form input[type=email]:focus,
+.contacto .php-email-form textarea:focus {
   border-color: var(--accent-color);
 }
 
-.contact .php-email-form input[type=text]::placeholder,
-.contact .php-email-form input[type=email]::placeholder,
-.contact .php-email-form textarea::placeholder {
+.contacto .php-email-form input[type=text]::placeholder,
+.contacto .php-email-form input[type=email]::placeholder,
+.contacto .php-email-form textarea::placeholder {
   color: color-mix(in srgb, var(--default-color), transparent 70%);
 }
 
-.contact .php-email-form input[type=text],
-.contact .php-email-form input[type=email] {
+.contacto .php-email-form input[type=text],
+.contacto .php-email-form input[type=email] {
   height: 48px;
   padding: 10px 15px;
 }
 
-.contact .php-email-form textarea {
+.contacto .php-email-form textarea {
   padding: 10px 12px;
   height: 290px;
 }
 
-.contact .php-email-form button[type=submit] {
+.contacto .php-email-form button[type=submit] {
   background: var(--accent-color);
   color: var(--contrast-color);
   border: 0;
@@ -2139,7 +2243,7 @@ a:hover {
   border-radius: 4px;
 }
 
-.contact .php-email-form button[type=submit]:hover {
+.contactoo .php-email-form button[type=submit]:hover {
   background: color-mix(in srgb, var(--accent-color) 90%, black 15%);
 }
 
