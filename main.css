@@ -318,7 +318,13 @@ a:hover {
   font-size: 14px;
   border-top: 1px solid color-mix(in srgb, var(--default-color), transparent 80%);
 }
-
+.footer p{
+  padding-top: 20px;
+  font-family: 'Raleway', sans-serif;
+}
+.footer h3{
+  font-family: 'Raleway', sans-serif;
+}
 .footer a {
   color: var(--default-color) !important;
 }
@@ -362,6 +368,7 @@ a:hover {
 }
 
 .footer .widget ul li {
+  font-family: 'Raleway', sans-serif;
   margin-bottom: 10px;
   line-height: 1.5;
 }
@@ -418,43 +425,7 @@ a:hover {
   position: relative;
 }
 
-.footer .footer-subscribe .form-control {
-  font-size: 14px;
-  height: 42px;
-  border: 2px solid color-mix(in srgb, var(--default-color), transparent 40%);
-  background: none;
-  color: var(--heading-color);
-  padding-right: 40px;
-}
 
-.footer .footer-subscribe .form-control:focus {
-  border-color: color-mix(in srgb, var(--default-color), transparent 10%);
-  box-shadow: none;
-}
-
-.footer .footer-subscribe .form-control::placeholder {
-  color: color-mix(in srgb, var(--heading-color), transparent 60%);
-}
-
-.footer .footer-subscribe .btn-link {
-  padding: 0;
-  margin: 0;
-  font-size: 1.5rem;
-  background-color: none;
-  border-color: none;
-  position: absolute;
-  line-height: 0;
-  color: color-mix(in srgb, var(--heading-color), transparent 20%);
-  top: 20px;
-  right: 10px;
-  transform: translateY(-50%) rotate(0deg);
-}
-
-.footer .footer-subscribe .btn-link:hover,
-.footer .footer-subscribe .btn-link:focus,
-.footer .footer-subscribe .btn-link:active {
-  text-decoration: none;
-}
 
 /*--------------------------------------------------------------
 # Preloader
@@ -654,6 +625,56 @@ a:hover {
 }
 
 /*--------------------------------------------------------------
+# Detalle-hero Section
+--------------------------------------------------------------*/
+.detalle-hero{
+  background-color: #fff;
+  
+}
+.detalle-hero.btn-get-started {
+  
+  color: #A70E0E;
+  border-radius: 5px;
+  padding: 8px 30px;
+  border: 2px solid #A70E0E;
+  transition: 0.3s all ease-in-out;
+  font-size: 14px;
+}
+
+.detalle-hero.btn-get-started:hover {
+  background-color: #A70E0E;
+  color: #FCF8F3;
+}
+
+.detalle-hero h1 {
+  color:#090722;
+  font-family: 'Aleo', serif;
+  font-weight: 500;
+  font-size: 4em;
+  text-align: left;
+}
+
+.detalle-hero p {
+  line-height: 1.7;
+  font-family: 'Raleway', sans-serif;
+  color:#090722;
+  font-size: 1em;
+  text-align: left;
+  padding: 0 23%;
+}
+
+
+.detalle-hero.section-subtitle {
+  font-size: 15px;
+  margin-bottom: 10px;
+  display: block;
+  color: var(--default-color);
+}
+.detalle-hero img{
+  width: 85%;
+}
+
+/*--------------------------------------------------------------
 # About 2 Section
 --------------------------------------------------------------*/
 .about-2{
@@ -790,7 +811,6 @@ a:hover {
   padding-top: 60px;
   padding-bottom: 60px;
 }
-
 .services-item h3 {
   font-family: 'Aleo', serif;
   font-size: 1.5em;
@@ -799,8 +819,12 @@ a:hover {
   text-align: center;
   padding: 20px 0;
 }
+.services-item{
+  
+}
 .services-item img{
-  width: 200px;
+  display: block;
+  width: 150px;
   margin: 0 auto;
 }
 .services p{
@@ -813,11 +837,8 @@ a:hover {
   padding: 0 20px;
 }
 .icon-f{
-  display: flex;
-  flex-flow: column;
-  justify-content: c;
+  margin: 0 auto;
 }
-
 /*--------------------------------------------------------------
 # Cursos Section
 --------------------------------------------------------------*/
@@ -1016,6 +1037,7 @@ a:hover {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
+  margin-top: 10%;
 }
 .card-w{
   max-width: 320px;
@@ -1045,7 +1067,7 @@ a:hover {
 }
 .blog-posts{
   background-image: url(./images/cherry-2.jpg);
-  height: 100vh;
+  height: 130vh;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -2173,6 +2195,18 @@ a:hover {
   background-size: cover;
   padding-top: 200px;
   height: 90vh;
+  font-family: 'Raleway', sans-serif;
+}
+.contacto input{
+  background: none;
+  border-radius: 5px;
+  width: 400px;
+  border-color: #A70E0E;
+}
+.contacto textarea{
+  background: none;
+  border-radius: 5px;
+  width: 400px;
 }
 .contacto h3{
   font-family: 'Aleo', serif;
@@ -2192,6 +2226,7 @@ a:hover {
   border: 2px solid #A70E0E;
   transition: 0.3s all ease-in-out;
   font-size: 14px;
+  text-align: left;
 }
 
 .contacto .php-email-form {
@@ -2214,7 +2249,7 @@ a:hover {
 .contacto .php-email-form input[type=text]:focus,
 .contacto .php-email-form input[type=email]:focus,
 .contacto .php-email-form textarea:focus {
-  border-color: var(--accent-color);
+  border-color: #A70E0E;
 }
 
 .contacto .php-email-form input[type=text]::placeholder,
@@ -2243,7 +2278,7 @@ a:hover {
   border-radius: 4px;
 }
 
-.contactoo .php-email-form button[type=submit]:hover {
+.contacto .php-email-form button[type=submit]:hover {
   background: color-mix(in srgb, var(--accent-color) 90%, black 15%);
 }
 
@@ -2417,4 +2452,130 @@ a:hover {
   padding-left: 5px;
   color: color-mix(in srgb, var(--default-color), transparent 60%);
   font-size: 14px;
+}
+
+/*--------------------------------------------------------------
+Querries
+--------------------------------------------------------------*/
+
+
+@media (max-width: 480px) {
+  .about{
+    background-image: url(./images/hero-mobile.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    
+  }
+  .about h1 {
+    padding-top: 10%;
+    font-size: 2em;
+    text-align: center;
+  }
+  .about p {
+    line-height: 1.7;
+    font-size: 0.8em;
+    padding: 0 10%;
+  }
+  .blog-post{
+    height: none;
+  }
+  .blog-posts h2{
+    padding-top: 10%;
+    font-size: 2em;
+    padding-top: 10%;
+  }
+  .blog-posts span{
+    font-family: 'Raleway', sans-serif;
+    text-decoration: underline;
+    color: #A70E0E;
+    font-weight: 700;
+  }
+  .blog-posts{
+    background-image: url(images/productos-mobile.jpg);
+    height: 100%;
+  }
+  .card-f{
+    justify-content: center;
+    margin-top: 10%;
+  }
+  .cursos{
+    height: 100%;
+    background-image: url(images/fondo-cremita.jpg) ;
+   
+  }
+  .cursos-box{
+    padding-right: 0;
+  }
+  
+  .cursos h3{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    display: block;
+    color: #A70E0E;
+  }
+  .cursos .content-title {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    color: #090722;
+    font-size: 2.5em;
+    margin-bottom: 30px;
+  }
+  .a-card-w{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+  }
+  .a-prod img{
+    width: 330px;
+    height: auto;
+    border-bottom: 4px solid #A70E0E;
+  }
+  .a-card-prod{
+    border: 4px solid #A70E0E;
+    max-width: 460px;
+  }
+  .a-card-tit{
+    font-family: 'Aleo', serif;
+    font-weight: 700;
+    text-align: center;
+    color: #A70E0E;
+    font-size: 3em;
+    padding: 5% 0;
+    border-bottom: 4px solid #A70E0E;
+  }
+  .a-card-tit-des{
+    font-family: 'Aleo', serif;
+    font-weight: 700;
+    text-align: left;
+    color: #090722;
+    font-size: 1.2em;
+    padding: 5%;
+    border-right: 4px solid #A70E0E;
+    
+  }
+  .a-card-desc{
+    font-family: 'Aleo', serif;
+    text-align: left;
+    color: #090722;
+    font-size: 0.8em;
+    max-width: 460px;
+    padding: 5%;
+    line-height: 2em;
+  
+  }
+  .a-card-mod{
+    font-family: 'Raleway', sans-serif;
+    font-size: 0.5em;
+  }
+  .a-card-border{
+    border-top: 4px solid #A70E0E;
+  }
+  .contacto{
+    background-image: url(images/fondo-cremita.jpg);
+    height: 100%;
+    
+  }
 }
