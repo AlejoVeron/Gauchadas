@@ -607,7 +607,7 @@ a:hover {
 # About Section
 --------------------------------------------------------------*/
 .about{
-  background-image: url(./assets/images/hero-2-cuadriculad.png);
+  background-image: url(./images/hero-2-cuadriculad.png);
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
@@ -658,7 +658,7 @@ a:hover {
 --------------------------------------------------------------*/
 .about-2{
   background-color: #FCF8F3;
-  background-image: url(./assets/images/cuadros.svg);
+  background-image: url(./images/cuadros.svg);
 }
 .about-2 .content {
   padding: 10% 0;
@@ -706,7 +706,7 @@ a:hover {
 --------------------------------------------------------------*/
 .lideres{
   background-color: #FCF8F3;
-  background-image: url(./assets/images/fondo-cremita.jpg);
+  background-image: url(./images/fondo-cremita.jpg);
 }
 .lideres .content {
   padding: 10% 0;
@@ -759,7 +759,7 @@ a:hover {
 # Clients
 --------------------------------------------------------------*/
 .clients{
-  background-image: url(./assets/images/fondo-cremita.jpg);
+  background-image: url(./images/fondo-cremita.jpg);
 }
 .clients .swiper-wrapper {
   height: auto;
@@ -786,7 +786,7 @@ a:hover {
 # Services Section
 --------------------------------------------------------------*/
 .services {
-  background-image: url(./assets/images/fondo-cremita.jpg);
+  background-image: url(./images/fondo-cremita.jpg);
   padding-top: 60px;
   padding-bottom: 60px;
 }
@@ -898,7 +898,7 @@ a:hover {
   height: 400px;
 }
 .prod{
-  background-image: url(assets/images/fondo-card.png);
+  background-image: url(./images/fondo-card.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -919,7 +919,7 @@ a:hover {
   border-top: 4px solid #A70E0E;
 }
 .blog-posts{
-  background-image: url(assets/images/cherry-2.jpg);
+  background-image: url(./images/cherry-2.jpg);
   height: 100vh;
   background-repeat: no-repeat;
   background-size: cover;
