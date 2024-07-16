@@ -2815,4 +2815,10 @@ Querries
     height: 100%;
     
   }
+  .cursos2{
+    height: 100%;
+  }
+  .mob{
+    display: none;
+  }
 }
